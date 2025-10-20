@@ -4,7 +4,7 @@ public class Book {
     private  String isbn;
     protected static int totalCopies =1;
     protected static int availableCopies =1;
-    static {
+    {
         System.out.println("New book created!");
     }
     Book(String title, String author, String isbn) {
